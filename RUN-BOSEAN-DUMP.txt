@@ -1,0 +1,9 @@
+python fs5000_dump.py --out C:\fs5000_data
+
+
+LIVE CAP
+Run it like:
+
+bash
+python fs5000_dump_live.py --out C:\radiation_logs
+Then open http://127.0.0.1:8765/ to watch the live graph while the anomaly engine logs spikes/plateaus with full 1‑second resolution.
